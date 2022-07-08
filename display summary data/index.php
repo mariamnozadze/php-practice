@@ -3,6 +3,44 @@
 <head>
     <meta charset="utf-8">
     <title>Jia's Used Cars</title>
+    <style type="text/css">
+        #Grid {
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #Grid td,
+        #Grid th {
+            font-size: 1em;
+            border: 1px solid #61add7;
+            padding: 3px 7px 2px 7px;
+        }
+
+        #Grid th {
+            font-size: 1.1em;
+            text-align: left;
+            padding-top: 5px;
+            padding-bottom: 4px;
+            background-color: #c2d9fe;
+            color: lightslategrey;
+        }
+
+        #Grid tr.odd td {
+            color: #000000;
+            background-color: #f2f5a9;
+        }
+
+        #Grid tr.even {
+            color: #000000;
+            background-color: white;
+        }
+
+        #Grid head {
+            color: #000000;
+            background-color: teal;
+        }
+    </style>
 </head>
 
 <body>
